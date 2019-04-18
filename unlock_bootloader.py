@@ -31,5 +31,6 @@ if __name__ == '__main__':
         if reboot_counter >= 3:
             #reboot to pass the lockup
             reboot()
+            time.sleep(1)
             reboot_counter = 0
-            
+	    
